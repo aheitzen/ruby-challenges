@@ -19,4 +19,23 @@
 # 19
 # You got it in 7 tries
 # ```
+random_number = rand(1..100)
+running = true
+count = 0
+
+puts "Guess a number between 1 and 100"
+while running do 
+user_answer = gets.chomp
+		if user_answer.to_i > random_number
+			puts "the number is lower than #{user_answer}"
+			count += 1
+		elsif user_answer.to_i < random_number
+			puts "the number is higher than #{user_answer}"
+			count += 1
+		elsif user_answer = random_number
+			puts "You got it in #{count} tries!"
+			running = false
+	end
+end
+
 
