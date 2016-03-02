@@ -1,30 +1,5 @@
 #Ruby Challenges
 
-Fork and clone this repo, and complete each challenge in a separate file.
-
-### Challenge 1 - Calculator
-
-Create a simple calculator that first asks the user what method they would like to use (addition, subtraction, multiplication, division) and then asks the user for two numbers, returning the result of the method with the two numbers. Here is a sample prompt:
-
-```
-What calculation would you like to do? (add, sub, mult, div)
-add
-What is number 1?
-3
-What is number 2?
-6
-Your result is 9
-```
-
-### Challenge 2 - Reverse a string
-
-Reverse a string in place. In other words, do not create a new string or use other methods on the string such as `reverse`. The goal of the problem is to use a loop and the string accessors to figure out which values to swap for other values. Below is some sample output.
-
-```
-Enter a string:
-reverse_me
-em_esrever
-```
 
 ### Challenge 3 - Bank Transactions
 
